@@ -1,0 +1,39 @@
+#tmp files
+~*
+
+*.class
+# *.log
+
+# Package Files #
+
+# *.jar    # until we get the code for categorization
+*.war
+*.ear
+
+**/data
+docs/
+
+# local files
+localFiles/
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Idea specific
+.idea/artifacts
+.idea/libraries
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
